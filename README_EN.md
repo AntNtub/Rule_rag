@@ -130,11 +130,6 @@ pnpm run build
 
 The tests do not load a populated `.env` file or connect to Azure.
 
-## Boundary Between the Paper and This Implementation
-
-The paper explicitly supports the following design elements: Azure OpenAI GPT-4, Azure Cosmos DB, Vue, REST APIs, overlapping chunks aligned to paragraph or section boundaries, clause metadata, retrieval-then-generation, mandatory citations, and refusal of out-of-scope questions. It reports only one aggregate human-reviewed result: 1,644 correct responses from 1,742 questions based on 51 regulation documents, or 94.37% response accuracy.
-
-This repository supplies implementation details that the paper does not specify, including the embedding deployment, dimensions, Cosmos DB index type, top-k value, distance threshold, chunk size, API schema, prompts, and citation validator. Reproducing the reported result would still require the original 51 regulations, all 1,742 item-level evaluation records, the original deployments, and the original scoring procedure. This repository does not claim to reproduce the reported 94.37% result on its own.
 
 ## Data Governance and Compliance
 
