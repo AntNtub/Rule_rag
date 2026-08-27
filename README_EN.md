@@ -2,7 +2,6 @@
 
 [繁體中文](README.md) | [English](README_EN.md)
 
-This repository provides a GitHub-ready reference implementation of the method described in *From Policy to Practice: Clause-Grounded Answers with Retrieval-Augmented Generation*:
 
 1. Normalize university regulations and split them into overlapping chunks along paragraph and section boundaries.
 2. Preserve document titles, article identifiers, issue dates, categories, and source URLs for clause-level citations and versioned updates.
