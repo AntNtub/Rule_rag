@@ -2,8 +2,6 @@
 
 [繁體中文](README.md) | [English](README_EN.md)
 
-這是一個可直接推送到 GitHub 的參考實作，依據論文 *From Policy to Practice: Clause-Grounded Answers with Retrieval-Augmented Generation* 所描述的方法建立：
-
 1. 將大學法規正規化，依段落／章節切成重疊片段。
 2. 保留文件名稱、條號、發布日期、分類與來源網址，以支援條款級引用及版本更新。
 3. 使用 Azure OpenAI 建立向量，存入 Azure Cosmos DB for NoSQL 的向量索引。
